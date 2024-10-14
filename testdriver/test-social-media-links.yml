@@ -1,0 +1,11 @@
+version: 4.0.68
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on the Facebook icon at the bottom of the page.
+    commands:
+      - command: scroll-until-image
+        description: Facebook icon at the bottom of the page
+        direction: down
