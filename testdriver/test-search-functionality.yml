@@ -1,0 +1,66 @@
+version: 4.0.68
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search bar
+        action: click
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search bar
+        action: click
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search bar
+        action: click
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: hover-text
+        text: Search
+        description: search icon in the header
+        action: click
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search bar
+        action: click
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search bar
+        action: click
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search bar
+        action: click
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search bar
+        action: click
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search bar
+        action: click
+  - prompt: Click on the search icon or bar.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search bar
+        action: click
