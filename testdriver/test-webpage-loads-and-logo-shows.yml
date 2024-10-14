@@ -1,0 +1,16 @@
+version: 4.0.68
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Assert the webpage loads successfully.
+    commands:
+      - command: assert
+        expect: The complete real-time developer platform is visible
+  - prompt: >-
+      Assert the company logo is visible on the page.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: PubNub logo is visible
