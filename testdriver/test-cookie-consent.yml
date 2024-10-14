@@ -1,0 +1,74 @@
+version: 4.0.68
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
+  - prompt: Click on "Accept Cookies" at the bottom of the page.
+    commands:
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
+  - prompt: Click on "Accept Cookies" at the bottom of the page.
+    commands:
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
+  - prompt: Click on "Accept Cookies" at the bottom of the page.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
+  - prompt: Click on "Accept Cookies" at the bottom of the page.
+    commands:
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
+  - prompt: Click on "Accept Cookies" at the bottom of the page.
+    commands:
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
+  - prompt: Click on "Accept Cookies" at the bottom of the page.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
+  - prompt: Click on "Accept Cookies" at the bottom of the page.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
+  - prompt: Click on "Accept Cookies" at the bottom of the page.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
+  - prompt: Click on "Accept Cookies" at the bottom of the page.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Accept Cookies
+        description: button at the bottom of the page
+        action: click
